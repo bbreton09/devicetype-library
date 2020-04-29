@@ -1,0 +1,60 @@
+manufacturer: Hirschmann
+model: MACH102-8TP
+slug: mach102-8tp
+part_number: ''
+u_height: 1
+is_full_depth: true
+subdevice_role: ''
+comments: ''
+console-ports:
+- name: Console Port 1
+  type: rj-11
+power-ports:
+- name: power1
+  type: iec-60320-c14
+  maximum_draw: 20
+  allocated_draw: null
+interfaces:
+- name: interface 1.1
+  type: 1000base-t
+  mgmt_only: false
+- name: Interface 1.1
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: interface 1.2
+  type: 1000base-t
+  mgmt_only: false
+- name: Interface 1.2
+  type: 1000base-x-sfp
+  mgmt_only: false
+- name: Interface 2.1
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.2
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.3
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.4
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.5
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.6
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.7
+  type: 100base-tx
+  mgmt_only: false
+- name: Interface 2.8
+  type: 100base-tx
+  mgmt_only: false
+- name: Management
+  type: virtual
+  mgmt_only: true
+device-bays:
+- name: Device Bay 1
+- name: Device Bay 2
+- name: Device Bay 3
